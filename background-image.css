@@ -3,7 +3,7 @@
 */
 body {
   /* Location of the image */
-  background-image: url(images/charlevoix.jpg);
+  background-image: url(images/charlevoix2.jpg);
 
   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -27,10 +27,10 @@ body {
 }
 
 /* For mobile devices */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   body {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-    background-image: url(images/20ans.jpg);
+    background-image: url(images/charlevoix.jpg);
   }
 	}
